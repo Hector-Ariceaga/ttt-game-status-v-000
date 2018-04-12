@@ -64,4 +64,3 @@ def winner(board)
     won?(board)
     return board[array]
 end
-end
