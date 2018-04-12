@@ -65,3 +65,4 @@ won?(board).each do |array|
   return board[array]
 end
 false
+end
