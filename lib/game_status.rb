@@ -61,7 +61,7 @@ def over?(board)
 end
 
 def winner(board)
-won?(board).each do |array| 
+won?(board).select do |array| 
   return board[array]
 end
 false
