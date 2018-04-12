@@ -62,7 +62,7 @@ end
 
 def winner(board)
   if !(won?(board))
-    return false
+    return nil
   else
   won?(board).detect do |array|
     return board[array]
