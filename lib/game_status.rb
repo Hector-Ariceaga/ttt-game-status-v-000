@@ -63,7 +63,5 @@ end
 def winner(board)
 if won?(board).select do |array| 
   return board[array]
-else 
-  false
 end
 end
