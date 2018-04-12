@@ -67,4 +67,3 @@ def winner(board)
     return board[array]
 end
 end
-end
