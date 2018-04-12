@@ -62,5 +62,6 @@ end
 
 def winner(board)
 won?(board).each do |array| 
+  return array[0]
 end
 end
