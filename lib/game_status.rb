@@ -61,6 +61,9 @@ def over?(board)
 end
 
 def winner(board)
+  if !(won?(board))
+    return false
+  else
   won?(board).detect do |array|
     return board[array]
   end
